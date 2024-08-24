@@ -1,0 +1,29 @@
+.btn-black{
+    background: #000;
+    border:4px solid #000;
+    color: #FFC727;
+    text-decoration: none;
+}
+
+.btn-black:hover{
+    background: #FFC727;
+    border:4px solid #000;
+    color: #000;
+}
+
+.arrow {
+    width: 150px; 
+    animation: moveLeftRight 2s infinite; 
+}
+
+@keyframes moveLeftRight {
+    0% {
+    transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
